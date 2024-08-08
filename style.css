@@ -1,208 +1,134 @@
-/*.body_{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: space-evenly;
+body{
+
     background-color: rgb(56, 41, 59);
-    
 }
-.info{
+
+.topsection{
 
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
-    align-content: center;
-    background-color: rgb(91, 68, 96);
-    border-style:groove;
-    border-color: thistle;
-    
-}
-.basicInfo{
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-}
-.pfp{
-    width: 300px;
-    height: 300px;
-    padding-left: 400px;
-
-
-}
-
-.fototext{
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-}
-
-.div_info{
-
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    padding-right: 400px;
-}
-
-.tastes{
-
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-content: center;
-    background-color: rgb(234, 234, 224);
-    border-style:groove;
-    
-}
-
-.tastes{
-
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    color: aliceblue;
-    background-color: rgb(91, 68, 96);
-    border-style:groove;
-    border-color: thistle;
-    
-}
-
-.teste{
-
-padding-top: 50px;
-
-}
-*/
-
-
-/*O HTML e CSS MAIS DESORGANIZADO JÁ VISTO >B) */
-.body_{
-    display: flex;
     justify-content: center;
-    flex-direction: column;
     align-content: space-evenly;
-    background-color: rgb(56, 41, 59);
-    
+    padding-bottom: 60;
 }
-.info{
 
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-content: space-evenly;
-    /*background-color: rgb(91, 68, 96);*/
-    /*border-style:groove;*/
-    /*border-color: thistle;*/
-    
-}
-.basicInfo{
+.pfpimg{
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-}
-.pfp{
     width: 300px;
     height: 300px;
-    padding-left: 100px;
-
-
-
-}
-
-.fototext{
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
+    border-radius: 200px;
+    border-style:groove;
 }
 
 .div_info{
 
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
+    color: aliceblue;
     padding-left: 50px;
     padding-right: 50px;
+    border-style: groove;
+    background-color: rgb(91, 68, 96);
 }
 
-.tastes{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: aliceblue;
-        background-color: rgb(91, 68, 96);
-        border-style:groove;
-        /*border-color: thistle;*/
-        padding-left: 119px;
-        padding-right: 90px;
-    }
-
-.teste{
-
-    padding-top: 50px;
-
-}
-
-.div_test{
+.middleSection{
 
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
+    justify-content: space-evenly;
     border-style: groove;
-    background-color: rgb(91, 68, 96);
-}
-
-.padding-meio{
-
-    padding: 10px;
-}
-
-.redesS_text{
-
     color: aliceblue;
-    display: flex;
-    
-
 }
 
-.redes_sociais{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-content: space-around;
-    background-color: rgb(91, 68, 96);
-    border-style: groove;
-    padding-left: 20px;
-    
+
+.div_padding{
+
+    padding: 20px;
 }
 
-.rede_pfp{
-
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-
-}
-
-.redes_sites{
-    display: flex;
-    justify-content:flex-start;
+a{
     color: aliceblue;
-    
-
+    text-decoration: none;
 }
 
-.rede_profile{
+.img_conhecimentos{
+
+    width: 300;
+    height: 300;
+}
+.img_hobbies{
+    
+    width: 300;
+    height: 300;
+}
+
+.tituloaba{
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: center;
 
+}
+
+
+.aba_titulo{
+
+    color: aliceblue;
+    font-size: 50;
+    padding: 30;
+    border-style: groove;
+}
+
+.aba_index{
+
+    color: aliceblue;
+    font-size: 30;
+    padding-bottom: 30;
+}
+
+.aba_texto{
+
+    color: aliceblue;
+    font-size: 50;
+    padding: 30;
+}
+
+.aba{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    padding-bottom: 60;
+}
+
+
+
+.div_redes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-style: groove;
+    color: aliceblue;
+}
+
+.middleSection2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-style: groove;
+    color: aliceblue;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+.redes_ajuste{
+
+    padding-left: 80;
+    padding-right: 80;
+}
+
+p{
+
+    font-size: 40;
 }
