@@ -37,6 +37,7 @@ body{
     justify-content: space-evenly;
     border-style: groove;
     color: aliceblue;
+    background-color: rgb(91, 68, 96);
 }
 
 
@@ -52,8 +53,8 @@ a{
 
 .img_conhecimentos{
 
-    width: 300;
-    height: 300;
+    width: 200;
+    height: 200;
 }
 .img_hobbies{
     
@@ -72,7 +73,7 @@ a{
 .aba_titulo{
 
     color: aliceblue;
-    font-size: 50;
+    font-size: 30;
     padding: 30;
     border-style: groove;
 }
@@ -80,14 +81,14 @@ a{
 .aba_index{
 
     color: aliceblue;
-    font-size: 30;
+    font-size: 20;
     padding-bottom: 30;
 }
 
 .aba_texto{
 
     color: aliceblue;
-    font-size: 50;
+    font-size: 30;
     padding: 30;
 }
 
@@ -109,6 +110,7 @@ display: flex;
     justify-content: space-evenly;
     border-style: groove;
     color: aliceblue;
+    background-color: rgb(91, 68, 96);
 }
 
 .middleSection2{
@@ -120,15 +122,26 @@ display: flex;
     color: aliceblue;
     padding-left: 100px;
     padding-bottom: 100px;
+    background-color: rgb(91, 68, 96);
 }
 
 .redes_ajuste{
 
-    padding-left: 80;
-    padding-right: 80;
+    font-size: 20;
+    padding-left: 70;
+    padding-right: 70;
 }
 
 p{
 
     font-size: 40;
+}
+
+.redeimg{
+
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        border-style:groove;
+    
 }
